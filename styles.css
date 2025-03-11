@@ -106,7 +106,7 @@ body {
     }
 
     .fortune-text::before {
-        font-size: calc(14px * var(--scale-ratio, 1));
+        font-size: calc(16px * var(--scale-ratio, 1));
         letter-spacing: 1.5px;
         line-height: 1.8;
     }
@@ -118,11 +118,11 @@ body {
 
 @media screen and (max-width: 480px) {
     .qiantong {
-        width: 120px;
+        width: 150px;
     }
 
     .fortune-text::before {
-        font-size: calc(14px * var(--scale-ratio, 1));
+        font-size: calc(16px * var(--scale-ratio, 1));
         letter-spacing: 1px;
         line-height: 1.6;
     }
